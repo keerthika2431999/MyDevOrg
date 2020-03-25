@@ -1,0 +1,125 @@
+{
+    "compilerOptions": {
+        "experimentalDecorators": true,
+        "baseUrl": ".",
+        "paths": {
+            "c/demo1HelloWorld": [
+                "demo1HelloWorld/demo1HelloWorld.js"
+            ],
+            "c/lwcDemo10PublicMethodChild": [
+                "lwcDemo10PublicMethodChild/lwcDemo10PublicMethodChild.js"
+            ],
+            "c/lwcDemo10PublicMethodParent": [
+                "lwcDemo10PublicMethodParent/lwcDemo10PublicMethodParent.js"
+            ],
+            "c/lwcDemo11Child": [
+                "lwcDemo11Child/lwcDemo11Child.js"
+            ],
+            "c/lwcDemo11Parent": [
+                "lwcDemo11Parent/lwcDemo11Parent.js"
+            ],
+            "c/lwcDemo12LifeCycle": [
+                "lwcDemo12LifeCycle/lwcDemo12LifeCycle.js"
+            ],
+            "c/lwcDemo13EventChild": [
+                "lwcDemo13EventChild/lwcDemo13EventChild.js"
+            ],
+            "c/lwcDemo2JavaScriptBinding": [
+                "lwcDemo2JavaScriptBinding/lwcDemo2JavaScriptBinding.js"
+            ],
+            "c/lwcDemo3Css": [
+                "lwcDemo3Css/lwcDemo3Css.js"
+            ],
+            "c/lwcDemo4ConditionalRendering": [
+                "lwcDemo4ConditionalRendering/lwcDemo4ConditionalRendering.js"
+            ],
+            "c/lwcDemo5Iteration": [
+                "lwcDemo5Iteration/lwcDemo5Iteration.js"
+            ],
+            "c/lwcDemo6NonReactivePrivateProp": [
+                "lwcDemo6NonReactivePrivateProp/lwcDemo6NonReactivePrivateProp.js"
+            ],
+            "c/lwcDemo7PublicPropertyChild": [
+                "lwcDemo7PublicPropertyChild/lwcDemo7PublicPropertyChild.js"
+            ],
+            "c/lwcDemo7PublicPropertyParent": [
+                "lwcDemo7PublicPropertyParent/lwcDemo7PublicPropertyParent.js"
+            ],
+            "c/lwcDemo8BooleanPropertyChild": [
+                "lwcDemo8BooleanPropertyChild/lwcDemo8BooleanPropertyChild.js"
+            ],
+            "c/lwcDemo8BooleanPropertyParent": [
+                "lwcDemo8BooleanPropertyParent/lwcDemo8BooleanPropertyParent.js"
+            ],
+            "c/lwcDemo9SlotDemoChild": [
+                "lwcDemo9SlotDemoChild/lwcDemo9SlotDemoChild.js"
+            ],
+            "c/lwcDemo9SlotDemoParent": [
+                "lwcDemo9SlotDemoParent/lwcDemo9SlotDemoParent.js"
+            ],
+            "c/lwcDemoHelloWorld": [
+                "lwcDemoHelloWorld/lwcDemoHelloWorld.js"
+            ],
+            "c/lwcDemo13EventParent": [
+                "lwcDemo13EventParent/lwcDemo13EventParent.js"
+            ],
+            "c/pubsub": [
+                "pubsub/pubsub.js"
+            ],
+            "c/lwcDemo14EventChild": [
+                "lwcDemo14EventChild/lwcDemo14EventChild.js"
+            ],
+            "c/lwcDemo14EventParent": [
+                "lwcDemo14EventParent/lwcDemo14EventParent.js"
+            ],
+            "c/lwcDemo14OtherCmp": [
+                "lwcDemo14OtherCmp/lwcDemo14OtherCmp.js"
+            ],
+            "c/ctof": [
+                "ctof/ctof.js"
+            ],
+            "c/lwcDemo15TempConvertor": [
+                "lwcDemo15TempConvertor/lwcDemo15TempConvertor.js"
+            ],
+            "c/lwcDemo16LDS": [
+                "lwcDemo16LDS/lwcDemo16LDS.js"
+            ],
+            "c/lwcDemo17ViewEditForm": [
+                "lwcDemo17ViewEditForm/lwcDemo17ViewEditForm.js"
+            ],
+            "c/lwcDemo18RecordForm": [
+                "lwcDemo18RecordForm/lwcDemo18RecordForm.js"
+            ],
+            "c/lwcDemo19ApexWireCall": [
+                "lwcDemo19ApexWireCall/lwcDemo19ApexWireCall.js"
+            ],
+            "c/lwcDemo20ApexImperativeCall": [
+                "lwcDemo20ApexImperativeCall/lwcDemo20ApexImperativeCall.js"
+            ],
+            "c/lwcDemo21GetRecordId": [
+                "lwcDemo21GetRecordId/lwcDemo21GetRecordId.js"
+            ],
+            "c/lwcDemo22UseExternalJS": [
+                "lwcDemo22UseExternalJS/lwcDemo22UseExternalJS.js"
+            ],
+            "c/lwcDemo": [
+                "lwcDemo/lwcDemo.js"
+            ],
+            "c/lwcDemo25ContactInfo": [
+                "lwcDemo25ContactInfo/lwcDemo25ContactInfo.js"
+            ],
+            "c/auraPubSub": [
+                "auraPubSub/auraPubSub.js"
+            ]
+        }
+    },
+    "include": [
+        "**/*",
+        "../../../../.sfdx/typings/lwc/**/*.d.ts"
+    ],
+    "typeAcquisition": {
+        "include": [
+            "jest"
+        ]
+    }
+}

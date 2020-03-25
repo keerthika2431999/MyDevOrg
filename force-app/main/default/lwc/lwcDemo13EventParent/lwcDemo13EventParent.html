@@ -1,0 +1,19 @@
+<template>
+    <lightning-card title="Demo 13 Contact List">
+    <lightning-layout>
+        <lightning-layout-item size="4" padding="around-small">
+   
+        <template for:each={contactInfoList} for:item="contact">
+            <li key={contact.id}>
+                <c-lwc-demo13-event-child
+                contact-info={contact} ><!--ontileclick={onTileSelectHandler} after {contact} is written titleclick is event name and 'on' is added infront--></c-lwc-demo13-event-child>
+            </li>
+        </template>
+        </lightning-layout-item>
+    <lightning-layout-item size="6" padding="around-small">
+        You have selected:{selectedContactInfo}
+    </lightning-layout-item>
+</lightning-layout>
+</lightning-card>
+
+</template>

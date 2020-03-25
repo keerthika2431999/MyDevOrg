@@ -1,0 +1,13 @@
+<template>
+    <lightning-input type="checkbox" name="input1" 
+    label="Show Div" 
+    onchange={handleCheckboxChange}></lightning-input>
+    <template if:true={displayDiv}>
+        <div> The value if display div is true </div>
+    </template>
+    <template if:false={displayDiv}>
+        <div> The value if display div is false </div>
+    </template>
+
+
+</template>

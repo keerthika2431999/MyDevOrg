@@ -1,0 +1,24 @@
+<template>
+    <template for:each={cityList} for:item="city">
+        <p key={city}>{city}</p>
+
+    </template>
+    <template iterator:it={cityList}>
+        <p key={it.value}>
+            {it.value} --- {it.index}
+        </p>
+    </template>
+    <!--Iterator can be used to access first and last element directly-->
+    <template iterator:it={cityList}>
+        <p key={it.value}>
+            <template if:true={it.first}>
+                {it.value}
+            </template>
+        </p>
+        <p key={it.value}>
+            <template if:true={it.last}>
+                {it.value}
+            </template>
+        </p>
+    </template>
+</template>

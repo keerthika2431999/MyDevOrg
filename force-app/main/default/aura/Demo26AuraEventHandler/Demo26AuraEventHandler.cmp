@@ -1,0 +1,7 @@
+<aura:component implements="flexipage:availableForAllPageTypes,force:appHostable">
+    <aura:attribute name="selectedContactName" type="String"/>
+    <c:auraPubSub aura:id="pubsubmodule" onready="{!c.subscribeEvent}"/>
+    <lightning:card title="Pass Data to Aura Component which is not in hierarchy">
+        The slected Contact Name is {!v.selectedContactName}
+    </lightning:card>
+</aura:component>
